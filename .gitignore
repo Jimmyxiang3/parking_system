@@ -1,0 +1,16 @@
+# Python 虚拟环境
+venv/
+venv.zip
+
+# Python 字节码缓存
+__pycache__/
+*.pyc
+
+# PyInstaller 构建产物
+build/
+dist/*.exe
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace

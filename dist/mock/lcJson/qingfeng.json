@@ -1,0 +1,519 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "xinfengji.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5565,
+                    -1.0007,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 295,
+                "floor": "L5",
+                "type": "新风机",
+                "name": "<空>",
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5565,
+                    -1.0007,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 299,
+                "floor": "L6",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4707,
+                    -1.1049,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 300,
+                "floor": "L7",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4707,
+                    -1.1049,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 301,
+                "floor": "L8",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4707,
+                    -1.1049,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 302,
+                "floor": "L14",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4707,
+                    -1.1049,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 303,
+                "floor": "L15",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4707,
+                    -1.1049,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 304,
+                "floor": "L16",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4707,
+                    -1.1049,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 305,
+                "floor": "L17",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 307,
+                "floor": "L19",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 308,
+                "floor": "L20",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 309,
+                "floor": "L21",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 310,
+                "floor": "L22",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 311,
+                "floor": "L23",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 312,
+                "floor": "L24",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 313,
+                "floor": "L25",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 314,
+                "floor": "L26",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 315,
+                "floor": "L27",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 316,
+                "floor": "L28",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 317,
+                "floor": "L29",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 318,
+                "floor": "L30",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 319,
+                "floor": "L31",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5699,
+                    -1.2042,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 320,
+                "floor": "L32",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.6824,
+                    2.1693,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 327,
+                "floor": "L18",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "xinfengji.24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.6824,
+                    -0.5096,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "objectid": 328,
+                "floor": "L18",
+                "type": "新风机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        }
+    ],
+    "totalFeatures": 24,
+    "numberMatched": 24,
+    "numberReturned": 24,
+    "timeStamp": "2021-07-23T08:19:36.658Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::404000"
+        }
+    }
+}

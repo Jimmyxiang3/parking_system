@@ -1,0 +1,715 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "l1.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4327,
+                    -5.6923,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "快球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3425,
+                    -4.1698,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.15,
+                    -13.5202,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "快球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.527,
+                    -0.7376,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "枪式摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.6318,
+                    4.5311,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.4875,
+                    4.4802,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0885,
+                    4.5514,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.2134,
+                    4.5311,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8086,
+                    -0.4376,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "枪式摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9641,
+                    2.1382,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "枪式摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5931,
+                    13.4682,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3794,
+                    -3.8889,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3794,
+                    -2.9669,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1105,
+                    -3.0535,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7879,
+                    -2.9669,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.7976,
+                    -3.5889,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.7976,
+                    -2.9669,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.3269,
+                    -1.6188,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.9549,
+                    -1.6188,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.8063,
+                    7.0321,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.0701,
+                    15.5663,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.3048,
+                    -5.3133,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.4853,
+                    -5.293,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.7281,
+                    -5.2823,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.25",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.9242,
+                    -5.284,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.26",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.5324,
+                    -4.0414,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.27",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.7072,
+                    -4.0432,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.28",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.9335,
+                    -4.0414,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.29",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0062,
+                    -4.0314,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.30",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.3917,
+                    -5.2242,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.31",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.1502,
+                    -5.2927,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.32",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.9319,
+                    -5.2932,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.33",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.8817,
+                    -4.1176,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.34",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7508,
+                    -4.004,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l1.35",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.1737,
+                    -4.0411,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L1",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        }
+    ],
+    "totalFeatures": 35,
+    "numberMatched": 35,
+    "numberReturned": 35,
+    "timeStamp": "2021-07-23T01:58:10.707Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::404000"
+        }
+    }
+}

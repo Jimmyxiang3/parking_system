@@ -1,0 +1,495 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "l14.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.7752,
+                    3.8918,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0213,
+                    5.4366,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0507,
+                    4.9633,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -16.3011,
+                    5.47,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -16.3592,
+                    -3.7833,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.2908,
+                    -3.7833,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.5156,
+                    1.9559,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.0922,
+                    -0.1073,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -24.1416,
+                    -1.2658,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -23.8193,
+                    2.2898,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.9965,
+                    -4.4159,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.8558,
+                    -4.5282,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9805,
+                    -0.3619,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "枪式摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.2992,
+                    -2.8734,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.5378,
+                    -0.6538,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "枪式摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -22.7478,
+                    -4.6482,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -22.7478,
+                    6.0675,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -19.2854,
+                    5.9825,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.9792,
+                    4.6066,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.9968,
+                    6.0341,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6715,
+                    -3.6434,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1747,
+                    -3.0132,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.7185,
+                    -3.0567,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l14.24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.096,
+                    5.1766,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L14",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": null
+            }
+        }
+    ],
+    "totalFeatures": 24,
+    "numberMatched": 24,
+    "numberReturned": 24,
+    "timeStamp": "2021-07-23T02:00:31.394Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::404000"
+        }
+    }
+}

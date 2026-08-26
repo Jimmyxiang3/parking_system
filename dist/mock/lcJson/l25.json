@@ -1,0 +1,2875 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "l25.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.6596,
+                    12.8089,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.5008,
+                    10.9992,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.4691,
+                    9.3482,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.6277,
+                    9.2847,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.5959,
+                    11.1421,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.5324,
+                    13.0153,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2462,
+                    9.3323,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.1509,
+                    11.2691,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.1509,
+                    13.0471,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.2937,
+                    12.8724,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.3413,
+                    11.0944,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.3889,
+                    9.3164,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.055,
+                    9.3005,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9757,
+                    11.3167,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9757,
+                    13.0947,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1527,
+                    12.7931,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1527,
+                    11.1262,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1527,
+                    9.3323,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.9274,
+                    9.3323,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.8639,
+                    11.2056,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.848,
+                    12.9994,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6677,
+                    9.2656,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6994,
+                    11.1283,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7206,
+                    12.8851,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.25",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.9473,
+                    12.8216,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.26",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.9473,
+                    11.1071,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.27",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.9473,
+                    9.3291,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.28",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.8853,
+                    9.2974,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.29",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.843,
+                    11.1177,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.30",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.8959,
+                    12.9063,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.31",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.1186,
+                    9.255,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.32",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.0605,
+                    9.3185,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.33",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.0817,
+                    11.1283,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.34",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.2668,
+                    11.16,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.35",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.2668,
+                    12.9169,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.36",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.9865,
+                    13.0227,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.37",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -17.3045,
+                    12.7899,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.38",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -17.3151,
+                    11.086,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.39",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -17.3786,
+                    9.3926,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.40",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.2887,
+                    9.2445,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.41",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.2252,
+                    11.0754,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.42",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.2464,
+                    12.864,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.43",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.2723,
+                    -6.9318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.44",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.2238,
+                    -8.5156,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.45",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.2723,
+                    -10.3318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.46",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.2723,
+                    -12.0318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.47",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.4773,
+                    -12.0345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.48",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.4773,
+                    -10.3345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.49",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.4773,
+                    -8.6345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.50",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.4773,
+                    -6.9345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.51",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.4223,
+                    -6.9318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.52",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.4223,
+                    -8.6318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.53",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.4223,
+                    -10.3318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.54",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.4223,
+                    -12.0318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.55",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.6273,
+                    -6.9345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.56",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.5898,
+                    -8.6908,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.57",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.6273,
+                    -10.3345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.58",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.6273,
+                    -12.0345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.59",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5723,
+                    -12.0318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.60",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5723,
+                    -10.3318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.61",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5723,
+                    -8.6318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.62",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5723,
+                    -6.9318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.63",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.7773,
+                    -6.9345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.64",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.7398,
+                    -8.6908,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.65",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.7773,
+                    -10.3345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.66",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.7773,
+                    -12.0345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.67",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7223,
+                    -12.0318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.68",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7223,
+                    -10.3318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.69",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7223,
+                    -8.6318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.70",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7223,
+                    -6.9318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.71",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8718,
+                    -12.0345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.72",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8718,
+                    -10.3345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.73",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9093,
+                    -8.6908,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.74",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8718,
+                    -6.9345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.75",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9268,
+                    -6.9318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.76",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9268,
+                    -8.6318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.77",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9268,
+                    -10.3318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.78",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9268,
+                    -12.0318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.79",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7218,
+                    -12.0345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.80",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7593,
+                    -10.3908,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.81",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7218,
+                    -8.6345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.82",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7218,
+                    -6.9345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.83",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.7768,
+                    -6.9318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.84",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.7768,
+                    -8.6318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.85",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.7768,
+                    -10.3318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.86",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.7768,
+                    -12.0318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.87",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5718,
+                    -12.0345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.88",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5718,
+                    -10.3345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.89",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5718,
+                    -8.6345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.90",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5718,
+                    -6.9345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.91",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.6268,
+                    -6.9318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.92",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.6268,
+                    -8.6318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.93",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.6268,
+                    -10.3318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.94",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.6268,
+                    -12.0318,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.95",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.2549,
+                    -12.0345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.96",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.2549,
+                    -10.3345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.97",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.2549,
+                    -8.6345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.98",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.2549,
+                    -6.9345,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "工位",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.99",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.1953,
+                    -12.1145,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.100",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.2482,
+                    -8.0399,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.101",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.5657,
+                    8.9464,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.102",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.3805,
+                    12.9945,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.103",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.7527,
+                    11.1424,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.104",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -24.7838,
+                    13.639,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.105",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -24.9366,
+                    9.2639,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.106",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -23.8253,
+                    2.3847,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.107",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -23.8473,
+                    -1.1409,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.108",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -24.7973,
+                    -12.2934,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.109",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -24.7973,
+                    -7.7884,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.110",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18.1412,
+                    0.1886,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.111",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.4527,
+                    -9.3331,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.112",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.3461,
+                    1.4296,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "会议室",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.113",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.9965,
+                    -4.4159,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.114",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.8558,
+                    -4.5282,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.115",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9805,
+                    -0.3619,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "枪式摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.116",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0648,
+                    -2.9792,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.117",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.5378,
+                    -0.6538,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "枪式摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.118",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -22.7478,
+                    -4.6482,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.119",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -22.7478,
+                    6.0675,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.120",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -21.3405,
+                    6.0086,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.121",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.2522,
+                    4.5725,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.122",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.9968,
+                    6.0341,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "半球摄像机",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.123",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7122,
+                    -3.8209,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.124",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.2222,
+                    -2.9779,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.125",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1612,
+                    -3.082,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.126",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.7668,
+                    -2.9725,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.127",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0307,
+                    4.7091,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.128",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2116,
+                    5.2794,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "人脸识别设备",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.129",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.0916,
+                    4.21,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.130",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.3068,
+                    7.3584,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.131",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.5714,
+                    7.3584,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.132",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5233,
+                    5.5385,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.133",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.3182,
+                    7.1891,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.134",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.049,
+                    7.1855,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.135",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -16.0274,
+                    5.4724,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.136",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -21.2177,
+                    -6.918,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.137",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -21.2243,
+                    -7.1836,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.138",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.7078,
+                    -3.7809,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.139",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.4027,
+                    -5.5909,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.140",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3222,
+                    -3.7809,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.141",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.5285,
+                    -7.4829,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.142",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.5351,
+                    -7.5855,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l25.143",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.2222,
+                    -0.6282,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "floor": "L25",
+                "type": "空调",
+                "name": null,
+                "id": null,
+                "height": "85"
+            }
+        }
+    ],
+    "totalFeatures": 143,
+    "numberMatched": 143,
+    "numberReturned": 143,
+    "timeStamp": "2021-07-23T08:07:58.046Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::404000"
+        }
+    }
+}
