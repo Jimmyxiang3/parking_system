@@ -14,12 +14,54 @@ from services.consistency_service import (ConsistencyModel, floor_occupancy,
                                           energy_totals, dispatch_advice,
                                           energy_advice, time_factor)
 import os
+from dotenv import load_dotenv
+
+load_dotenv()  # 加载 .env（须在任何 os.getenv 之前）
+
+APP_ENV = os.getenv('APP_ENV', 'development')
+
+
+def _database_url():
+    url = os.getenv('DATABASE_URL')
+    if url:
+        # SQLAlchemy 2.0 拒绝 postgres:// 前缀，统一归一化
+        url = url.replace('postgres://', 'postgresql://', 1)
+        # 裸 postgresql:// 默认走 psycopg2 方言，本项目用 psycopg 3，补驱动名
+        url = url.replace('postgresql://', 'postgresql+psycopg://', 1)
+        return url
+    if APP_ENV == 'production':
+        raise RuntimeError('APP_ENV=production 时必须设置 DATABASE_URL')
+    return 'sqlite:///parking.db'  # 开发回退：instance/parking.db
+
+
+def _secret_key():
+    key = os.getenv('SECRET_KEY')
+    if key:
+        return key
+    if APP_ENV == 'production':
+        raise RuntimeError('APP_ENV=production 时必须设置 SECRET_KEY')
+    return 'dev-only-secret-key'
+
 
 app = Flask(__name__, static_folder=None)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///parking.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = _database_url()
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-CORS(app)
+app.config['SECRET_KEY'] = _secret_key()
+
+# CORS：生产只放行白名单（Netlify 前端域名），开发保持全开放
+if APP_ENV == 'production':
+    origins = os.getenv('CORS_ALLOWED_ORIGINS', '')
+    if not origins:
+        raise RuntimeError('APP_ENV=production 时必须设置 CORS_ALLOWED_ORIGINS')
+    allowed = [o.strip() for o in origins.split(',') if o.strip()]
+    CORS(app, resources={r"/api/*": {"origins": allowed, "supports_credentials": True}})
+else:
+    CORS(app)
+
 db.init_app(app)
+
+from flask_migrate import Migrate
+migrate = Migrate(app, db, render_as_batch=True)  # batch：SQLite 增量迁移需要
 
 # 前端静态文件路径
 DIST_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dist')
@@ -44,6 +86,8 @@ def _refresh_event_times():
     - 每类按优先级取前N条作为未处理（fire 1、device 1、parking 2），其余已处理
     - 未处理只出现在时限前段；接近时限(80%)自动已处理
     - 跨天后时间基于新的一天重新分布，等于全新数据"""
+    if os.environ.get('APP_ENV') == 'production':
+        return False  # 生产环境禁止随机改写真实事件数据
     from models import EventRefreshMark
     import random as _random
 
@@ -2065,6 +2109,83 @@ def fire_cameras():
          'status': 'offline'},
     ]})
 
+# ========== P1: 消防应急处置总览 ==========
+@app.route('/api/fire/emergency', methods=['GET'])
+def fire_emergency():
+    """消防应急处置总览：紧急事件 + 风险点位 + 传感器异常 + 处置建议"""
+    now = datetime.now()
+
+    # 1. 紧急事件：消防类事件 + 高优先级设备事件，优先级降序
+    emerg_events = EventLog.query.filter(db.or_(
+        EventLog.category == 'fire',
+        db.and_(EventLog.category == 'device', EventLog.priority >= 75)
+    )).order_by(EventLog.priority.desc(), EventLog.timestamp.desc()).limit(20).all()
+    emergencies = [e.to_dict() for e in emerg_events]
+
+    # 2. 风险点位：未处理的消防高/中危事件，按设备去重，字段对齐 /api/fire/risks
+    risk_events = EventLog.query.filter(
+        EventLog.category == 'fire',
+        EventLog.lv.in_(['high', 'mid']),
+        EventLog.status == 'pending'
+    ).all()
+    seen_devices, risk_points = set(), []
+    for e in risk_events:
+        key = e.device_id or e.device
+        if key in seen_devices:
+            continue
+        seen_devices.add(key)
+        risk_points.append({
+            'id': f'EV-{e.id}',
+            'position': e.position,
+            'device_id': e.device_id,
+            'device_name': e.device,
+            'reason': e.description,
+            'risk_level': e.lv,
+            'occurrence_count_30d': EventLog.query.filter(
+                EventLog.category == 'fire',
+                EventLog.device_id == e.device_id,
+                EventLog.timestamp >= now - timedelta(days=30)).count(),
+            'status': e.status,
+            'generated_at': e.timestamp.strftime('%Y-%m-%dT%H:%M:%S+08:00'),
+        })
+
+    # 3. 传感器异常：消防相关设备（照明/风机/空调）故障或离线
+    sensor_anomalies = [{
+        'floor': d.floor,
+        'device_code': d.device_code,
+        'device_type': d.device_type,
+        'status': d.status,
+        'location': d.location,
+        'severity': 'high' if d.status == 'fault' else 'medium',
+    } for d in Device.query.filter(
+        Device.device_type.in_(['light', 'fan', 'ac']),
+        Device.status.in_(['fault', 'offline'])
+    ).limit(10).all()]
+
+    # 4. 处置建议：未处理事件的 recommendation 按优先级去重排序
+    advice, seen_advice = [], set()
+    for e in sorted(emerg_events, key=lambda x: -(x.priority or 0)):
+        if e.status == 'pending' and e.recommendation and e.recommendation not in seen_advice:
+            seen_advice.add(e.recommendation)
+            advice.append({
+                'priority': e.priority,
+                'target': e.device or e.position,
+                'recommendation': e.recommendation,
+            })
+
+    return jsonify({'code': 200, 'message': 'success', 'data': {
+        'summary': {
+            'total_emergencies': len(emergencies),
+            'pending_count': sum(1 for e in emergencies if e['status'] == 'pending'),
+            'critical_count': sum(1 for e in emergencies if (e['priority'] or 0) >= 90),
+            'updated_at': now.strftime('%Y-%m-%dT%H:%M:%S+08:00'),
+        },
+        'emergencies': emergencies,
+        'risk_points': risk_points,
+        'sensor_anomalies': sensor_anomalies,
+        'disposal_advice': advice,
+    }})
+
 # ========== 前端页面托管 ==========
 @app.route('/')
 def serve_index():
@@ -2090,7 +2211,6 @@ def proxy_flask(subpath):
 
 # ========== 启动 ==========
 if __name__ == '__main__':
-    with app.app_context():
-        db.create_all()
-        print("✅ 数据库表创建成功")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # 建表统一走 flask db upgrade（见 docs/DEPLOY_RENDER.md），此处不再 create_all
+    port = int(os.getenv('PORT', '5000'))
+    app.run(debug=(APP_ENV != 'production'), host='0.0.0.0', port=port)

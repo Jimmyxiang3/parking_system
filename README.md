@@ -5,7 +5,8 @@
 ## 技术栈
 
 - Python Flask 3.0 + Flask-SQLAlchemy
-- SQLite 数据库（`instance/parking.db`，仓库已内置演示数据）
+- 开发环境 SQLite（`instance/parking.db`，不进仓库）；**生产环境 PostgreSQL**（通过 `DATABASE_URL` 环境变量连接）
+- Flask-Migrate/Alembic 数据库迁移
 - paho-mqtt（可选，默认关闭）
 - 前端 Vue 构建产物（`dist/`，由 Flask 直接托管）
 
@@ -19,7 +20,14 @@ venv\Scripts\Activate.ps1
 # 2. 安装依赖（国内可加清华镜像 -i https://pypi.tuna.tsinghua.edu.cn/simple）
 pip install -r requirements.txt
 
-# 3. 启动后端（数据库已随仓库提供，无需初始化）
+# 3. 建表（Flask-Migrate 迁移，首次运行执行一次）
+set FLASK_APP=app.py
+flask db upgrade
+
+# 4. （可选）填充演示数据：420 个车位、车辆、设备等（幂等，可重复执行）
+python init_data.py
+
+# 5. 启动后端
 python app.py
 ```
 
@@ -28,11 +36,13 @@ python app.py
 - 前端大屏：<http://127.0.0.1:5000/>
 - 健康检查：<http://127.0.0.1:5000/api/hello>
 
-> 如果删除了数据库或想重置数据，先执行 `python init_data.py` 重新初始化（自动建表并填充 420 个车位、车辆、设备等演示数据）。
+> 想重置演示数据：`python init_data.py --force`（清空后重新填充）。
+> 环境变量见 [.env.example](.env.example)；生产环境必须设置 `APP_ENV=production` + `DATABASE_URL` + `SECRET_KEY` + `CORS_ALLOWED_ORIGINS`，详见部署文档。
 
 ## 文档
 
 - [使用说明.md](使用说明.md) — 面向团队成员的完整使用说明（克隆、部署、接口、常见问题）
+- [docs/DEPLOY_RENDER.md](docs/DEPLOY_RENDER.md) — **生产部署指南**（Render/Railway + 在线 PostgreSQL）
 - [docs/后端启动与依赖安装教程.md](docs/后端启动与依赖安装教程.md) — 详细的依赖安装与启动教程
 - [使用说明.txt](使用说明.txt) — PyInstaller 打包版 exe 的使用说明
 
@@ -49,7 +59,11 @@ parking_system/
 ├── mqtt_client.py          # MQTT 客户端（可选）
 ├── dynamic_reroute.py      # 动态改道逻辑
 ├── requirements.txt        # Python 依赖清单
-├── instance/parking.db     # SQLite 数据库（含演示数据）
+├── init_data.py            # 演示数据初始化（幂等；生产数据不入仓库）
+├── instance/               # SQLite 开发数据库（已被 gitignore，不进仓库）
+├── migrations/             # Alembic 迁移文件（flask db upgrade 建表/升级）
+├── scripts/migrate_to_online.py  # SQLite → PostgreSQL 一键迁移脚本
+├── wsgi.py                 # 生产 WSGI 入口（gunicorn）
 ├── dist/                   # 前端构建产物（Flask 托管）
 ├── docs/                   # 文档
 └── parking_system.spec     # PyInstaller 打包配置
@@ -64,6 +78,7 @@ parking_system/
 | `/api/devices` | 设备列表（支持 `?type=`、`?floor=` 过滤） |
 | `/api/energy/24h` | 24 小时能耗记录 |
 | `/api/events` | 告警/事件列表 |
+| `/api/fire/emergency` | 消防应急处置总览 |
 
 ## 部署打包（可选）
 

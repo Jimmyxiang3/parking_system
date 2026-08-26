@@ -2,6 +2,12 @@
 venv/
 venv.zip
 
+# 环境变量（.env.example 是示例模板，保留在仓库）
+.env
+
+# 本地 SQLite 开发数据库（演示数据由 init_data.py 生成，生产用在线数据库）
+instance/*.db
+
 # Python 字节码缓存
 __pycache__/
 *.pyc
