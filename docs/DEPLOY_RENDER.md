@@ -36,26 +36,47 @@ Netlify
 
 ## 3. Render 部署步骤
 
+### 方式 A：Blueprint 一键部署（推荐）
+
+仓库根目录已提供 [render.yaml](../../render.yaml)，自动创建 PostgreSQL + Web Service + 环境变量 + 数据库关联，**启动时自动建表并填充演示数据**（`flask db upgrade && python init_data.py`，均幂等）。
+
+1. Render 控制台 → **New → Blueprint** → 选择 GitHub 仓库 `Jimmyxiang3/parking_system` → **Apply**
+2. 等待服务部署完成（首次约 5-10 分钟），访问 `https://parking-system-xxx.onrender.com/api/hello` 验证
+3. 如果之前手动建过 PostgreSQL（方式 B 的步骤 1），Blueprint 会再建一个 `parking-db`，旧的那个删掉即可
+4. 前端部署到 Netlify 后，把 `CORS_ALLOWED_ORIGINS` 改成真实域名（Render 控制台 → 服务 → Environment）
+
+### 方式 B：手动逐步部署
+
 1. **建 PostgreSQL**：Render 控制台 → New → PostgreSQL（免费档即可），创建后复制连接串（Internal Database URL 供 Web Service 使用）。
 2. **建 Web Service**：New → Web Service → 连接 GitHub 仓库 `Jimmyxiang3/parking_system`。
    - Build Command：`pip install -r requirements.txt`
-   - Start Command：`gunicorn -w 2 -b 0.0.0.0:$PORT wsgi:app`
+   - Start Command：`flask db upgrade && python init_data.py && gunicorn -w 2 -b 0.0.0.0:$PORT wsgi:app`
    - Python 版本：3.11 或以上
 3. **配置环境变量**：按上表填写（`DATABASE_URL` 用步骤 1 的 Internal URL）。
-4. **首次部署**：部署成功后接口会报"表不存在"——这是正常的，继续下一步。
-5. **初始化数据库结构**：Render 控制台 → Web Service → Shell，执行：
+4. **首次部署**：启动命令已自动执行建表 + 演示数据填充，无需额外 Shell 操作。
 
-   ```bash
-   flask db upgrade
-   ```
+### 数据库结构变更（后续）
 
-   > 这是**唯一**的建表入口（迁移文件含 PG 自增主键 Identity 定义）。不要用 `db.create_all()`。
-6. **（可选，演示环境）填充演示数据**：同 Shell 里执行 `python init_data.py`（幂等，可重复执行）。
-7. **（可选）迁移旧 SQLite 数据**：如果有本机 `instance/parking.db` 数据要导入在线库，本地执行：
+改了 `models.py` 之后：
 
-   ```powershell
-   python scripts/migrate_to_online.py --pg "postgresql+psycopg://用户:密码@主机:5432/库名"
-   ```
+```bash
+# 本地生成迁移文件并提交到 GitHub
+flask db migrate -m "变更说明"
+git push
+
+# 在 Render 控制台 → 服务 → Shell 执行（不删数据）
+flask db upgrade
+```
+
+> 迁移是**唯一**的建表/升级入口（迁移文件含 PG 自增主键 Identity 定义）。不要用 `db.create_all()`。
+
+### （可选）迁移旧 SQLite 数据
+
+如果有本机 `instance/parking.db` 数据要导入在线库，本地执行：
+
+```powershell
+python scripts/migrate_to_online.py --pg "postgresql+psycopg://用户:密码@主机:5432/库名"
+```
 
 ## 4. 验证清单
 

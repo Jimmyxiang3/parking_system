@@ -1,0 +1,29 @@
+# Render Blueprint：一键部署后端 Web Service + PostgreSQL
+# 用法：Render 控制台 → New → Blueprint → 选择本仓库 → Apply
+databases:
+  - name: parking-db
+    plan: free
+
+services:
+  - type: web
+    name: parking-system
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    # 启动时自动建表（flask db upgrade，幂等）+ 空库填充演示数据（init_data.py，幂等）
+    startCommand: flask db upgrade && python init_data.py && gunicorn -w 2 -b 0.0.0.0:$PORT wsgi:app
+    healthCheckPath: /api/hello
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: FLASK_APP
+        value: app.py
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ALLOWED_ORIGINS
+        # TODO: 前端部署到 Netlify 后，把这里替换为真实的 Netlify 域名
+        value: https://example.netlify.app
+      - key: DATABASE_URL
+        fromDatabase:
+          name: parking-db
+          property: connectionString
