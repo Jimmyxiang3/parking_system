@@ -42,7 +42,7 @@ const D = await res.json();
 console.log(D.parking_spots); // 与 data.js 结构完全相同
 ```
 
-Netlify 静态文件默认响应 `Access-Control-Allow-Origin: *`，跨域 fetch 没问题。
+Netlify 上已放置 `_headers` 文件开放跨域（`Access-Control-Allow-Origin: *`），fetch 无跨域问题。
 
 ## 四、数据结构
 
