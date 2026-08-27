@@ -1,4 +1,4 @@
-﻿from flask import Flask, jsonify, request, send_from_directory, send_file
+﻿from flask import Flask, jsonify, request
 from flask_cors import CORS
 from datetime import datetime, timedelta
 from models import db, ParkingSpot, EnergyRecord, Device, EventLog, \
@@ -62,9 +62,6 @@ db.init_app(app)
 
 from flask_migrate import Migrate
 migrate = Migrate(app, db, render_as_batch=True)  # batch：SQLite 增量迁移需要
-
-# 前端静态文件路径
-DIST_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dist')
 
 # MQTT（注释掉，没装MQTT服务器也能跑）
 # from mqtt_client import init_mqtt
@@ -2185,29 +2182,6 @@ def fire_emergency():
         'sensor_anomalies': sensor_anomalies,
         'disposal_advice': advice,
     }})
-
-# ========== 前端页面托管 ==========
-@app.route('/')
-def serve_index():
-    """托管前端首页"""
-    return send_file(os.path.join(DIST_DIR, 'index.html'))
-
-@app.route('/<path:filename>')
-def serve_static(filename):
-    """托管前端静态资源（JS/CSS/图片等）"""
-    file_path = os.path.join(DIST_DIR, filename)
-    if os.path.isfile(file_path):
-        return send_from_directory(DIST_DIR, filename)
-    # 非API路径返回前端首页（SPA路由）
-    if not filename.startswith('api/'):
-        return send_file(os.path.join(DIST_DIR, 'index.html'))
-    return jsonify({'code': 404, 'msg': 'Not found'}), 404
-
-@app.route('/flask/<path:subpath>')
-def proxy_flask(subpath):
-    """兼容前端开发代理 /flask → 重定向到后端"""
-    return send_from_directory(DIST_DIR, subpath) if os.path.isfile(
-        os.path.join(DIST_DIR, subpath)) else send_file(os.path.join(DIST_DIR, 'index.html'))
 
 # ========== 启动 ==========
 if __name__ == '__main__':

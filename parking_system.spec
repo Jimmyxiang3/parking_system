@@ -5,7 +5,7 @@ a = Analysis(
     ['app.py'],
     pathex=[],
     binaries=[],
-    datas=[('services', 'services'), ('dist', 'dist'), ('instance', 'instance')],
+    datas=[('services', 'services'), ('instance', 'instance')],
     hiddenimports=['flask_sqlalchemy', 'flask_cors', 'paho.mqtt.client'],
     hookspath=[],
     hooksconfig={},
