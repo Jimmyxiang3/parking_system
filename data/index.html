@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>停车楼系统 - 静态数据</title>
+<script src="data.js"></script>
+<style>
+  body { font-family: "Microsoft YaHei", sans-serif; margin: 0; background: #0d1b2a; color: #e0e1dd; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+  h1 { font-size: 22px; color: #00d4ff; }
+  h2 { font-size: 16px; color: #7dd3fc; margin-top: 28px; border-bottom: 1px solid #1b263b; padding-bottom: 6px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+  .card { background: #1b263b; border-radius: 10px; padding: 14px 18px; min-width: 130px; }
+  .card .n { font-size: 26px; font-weight: bold; color: #00d4ff; }
+  .card .t { font-size: 13px; color: #778da9; margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
+  th, td { border: 1px solid #1b263b; padding: 7px 10px; text-align: left; }
+  th { background: #1b263b; color: #7dd3fc; }
+  .tip { background: #14213d; border-left: 3px solid #00d4ff; padding: 12px 16px; border-radius: 6px; font-size: 13px; line-height: 1.7; }
+  code { background: #0d1b2a; padding: 2px 6px; border-radius: 4px; color: #fca311; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>停车楼系统 · 静态数据源</h1>
+  <div class="tip">
+    数据全部封装在 <code>window.PARKING_DATA</code> 全局对象中（由 <code>data.js</code> 提供）。<br>
+    前端页面只需要一行引入：<code>&lt;script src="https://你的站点.netlify.app/data.js"&gt;&lt;/script&gt;</code><br>
+    然后直接访问 <code>window.PARKING_DATA.parking_spots</code> 等即可，无 CORS 限制、无需后端。
+  </div>
+
+  <h2>数据统计（实时来自 data.js）</h2>
+  <div class="stats" id="stats"></div>
+
+  <h2>各表字段示例（取第一条）</h2>
+  <table id="samples"></table>
+
+  <h2>停车场实时预览（来自静态数据）</h2>
+  <div class="tip" id="preview"></div>
+</div>
+
+<script>
+(function () {
+  var D = window.PARKING_DATA;
+  if (!D) {
+    document.getElementById('stats').innerHTML = '<div class="card"><div class="n">-</div><div class="t">data.js 未加载</div></div>';
+    return;
+  }
+  var names = {
+    parking_spots: '车位', vehicles: '车辆', devices: '设备', energy_records: '能耗记录',
+    event_logs: '告警事件', parking_records: '停车记录', zones: '区域', user_profiles: '用户画像',
+    holiday_configs: '节假日配置', fire_alarm_stats: '消防统计', peak_hour_stats: '高峰统计',
+    charging_piles: '充电桩', charging_records: '充电记录', floor_gates: '楼层闸机',
+    parking_assignments: '车位分配', device_maintenances: '设备维护', event_refresh_marks: '刷新标记'
+  };
+  var stats = document.getElementById('stats');
+  Object.keys(D).forEach(function (k) {
+    stats.innerHTML += '<div class="card"><div class="n">' + D[k].length + '</div><div class="t">' + (names[k] || k) + '</div></div>';
+  });
+
+  var samples = document.getElementById('samples');
+  var html = '<tr><th>表名</th><th>首行数据（截断）</th></tr>';
+  Object.keys(D).forEach(function (k) {
+    var first = D[k][0];
+    var txt = first ? JSON.stringify(first).slice(0, 140) : '（空表）';
+    html += '<tr><td><code>' + k + '</code></td><td>' + txt + '</td></tr>';
+  });
+  samples.innerHTML = html;
+
+  var spots = D.parking_spots || [];
+  var occupied = spots.filter(function (s) { return s.status === 'occupied'; }).length;
+  var floors = {};
+  spots.forEach(function (s) { floors[s.floor] = (floors[s.floor] || 0) + 1; });
+  var floorsTxt = Object.keys(floors).sort().map(function (f) {
+    return 'F' + f + '层:' + floors[f] + '个';
+  }).join('，');
+  document.getElementById('preview').innerHTML =
+    '车位总数 <b>' + spots.length + '</b> 个，占用 <b>' + occupied + '</b> 个，空闲 <b>' +
+    (spots.length - occupied) + '</b> 个<br>' + floorsTxt +
+    '<br>场内车辆 <b>' + (D.vehicles || []).length + '</b> 辆，设备 <b>' + (D.devices || []).length + '</b> 台，未处理告警 <b>' +
+    (D.event_logs || []).filter(function (e) { return e.status === 'pending'; }).length + '</b> 条';
+})();
+</script>
+</body>
+</html>
